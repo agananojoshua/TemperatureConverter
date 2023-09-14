@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+}
+
+
+body{ 
+   margin-top: 60px; 
+   text-align:center; 
+   background-image: linear-gradient(to bottom right, red, yellow);
+   background-repeat: no-repeat;
+   height: 100vh;
+ }
+
+/* DEMO-SPECIFIC STYLES */ 
+.typewriter h1{ 
+color: #fff; 
+overflow: hidden; 
+font-size: 0.9rem;
+font-weight: bold;
+background: linear-gradient(
+            to right, #FFFFFFFF, #000,
+             #fff, #000);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+ }
+  
+ input[type=number] { 
+   cursor: pointer; 
+   margin: 20px, 20px;
+   top: 20%;
+   height: 10vh;
+   width: 90vw;
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+ }
+  
+ #input-celsius{ 
+   background-color: #000; 
+   font-size: 1rem; 
+   margin-top: 10%;
+ } 
+  
+ #input-fahrenheit{ 
+   background-color: #000; 
+   font-size: 1rem;
+   margin-top: 10%;
+ } 
+  
+ #input-kelvin{ 
+   background-color: #000; 
+   font-size: 1rem;
+   margin-top: 10%;
+ } 
+  
+ .form-padding { 
+   padding: 2rem 1rem; 
+ } 
+  
+ ::-webkit-input-placeholder { 
+   color: #FFFFFF !important; 
+ } 
+ ::-moz-placeholder { 
+   color: #FFFFFF !important; 
+ } 
+ :-ms-input-placeholder { 
+   color: #FFFFFF !important; 
+ } 
+ :-moz-placeholder { 
+   color: #FFFFFF !important; 
+ } 
+  
+ footer{ 
+   padding-top: 1.5rem; 
+   font-size: 0.7rem; 
+   line-height: 0.2rem; 
+   text-align:center; 
+ } 
+  
+ .icons{ 
+   max-width: 25px; 
+   height: auto; 
+ }
